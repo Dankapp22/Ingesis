@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INGESIS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="shortcut icon" href="./assets/ingesisIcono.ico">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">INGESIS</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre Nosotros</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">INGESIS</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#sobre" onclick="toggleMenu()">Sobre Nosotros</a></li>
+                <li><a href="#proyectos" onclick="toggleMenu()">Proyectos</a></li>
+                <li><a href="#servicios" onclick="toggleMenu()">Servicios</a></li>
+                <li><a href="#contacto" onclick="toggleMenu()">Contacto</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/ingesis.PNG" alt="Logo INGESIS" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hola, somos</p>
+            <h1 class="title">INGESIS</h1>
+            <p class="section__text__p2">Ingenieria en Sistemas</p>
+            <div class="btn-container">
+                <button class="btn btn-color-1" 
+                onclick="location.href='/#contacto'">
+                    Contacto
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="Perfil de LinkedIn"
+                class="icon" onclick="location.href='https://cl.linkedin.com/'">
+            </div>
+        </div>
+    </section>
+    <section id="sobre">
+        <p class="section__text__p1">Saber más</p>
+        <h1 class="title">Sobre INGESIS</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/ingesisSinLetra.png" 
+                alt="Logo INGESIS" class="about-pic"> 
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" 
+                        alt="experiencia" class="icon">
+                        <h3>Experiencia</h3>
+                        <p>Empresa de ingenieria en sistemas<br>
+                         Más de 10 años de experienca               
+                        </p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/business.png" 
+                        alt="ceo" class="icon">
+                        <h3>CEO: Marco Alvarado García</h3>
+                        <p>Fundador y director de INGESIS <br>
+                         Ingeniero Civil en Informática <br>
+                         Más de 30 años de experiencia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" 
+        alt="Icono de flecha" class="icon arrow"
+        onclick="location.href='./#proyectos'">
+    </section>
+    <section id="proyectos">
+        <p class="section__text__p1">Conoce nuestros</p>
+        <h1 class="title">Servicios/Desarrollos</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Servicios Computacionales</h2>
+                    <br>
+                    <div class="article-container">
+                        <article style="padding-right: 0.1rem;">
+                            <img src="./assets/verified.png" 
+                            alt="Icono Proyectos" class="icon">
+                            <div>
+                                <h3>Desarrollo de sistema de ventas de tickets web</h3>
+                                <p>Creación, ejecución y mantenimiento de sistema de ventas de tickets web. <br> 
+                                Sistema utilizado para almacenar e implementar toda la logística de ventas: <br>
+                                Almacenamiento de la información en bases de datos, exportación de dicha <br>
+                                información, implementación de sistema de venta (boleta/factura) para la empresa. 
+                            </div>
+                        </article>
+                        <article style="padding-right: 3rem;">
+                            <img src="./assets/verified.png" 
+                            alt="Icono Proyectos" class="icon">
+                            <div>
+                                <h3>Desarrollo de sistema para ventas de tickets en terreno</h3>
+                                <p>Creación, ejecución y mantenimiento de sistema para ventas de ticket. <br>
+                                Focalizado en la creación de un sistema para poder vender tickets en terreno,<br>
+                                a través de capturadores o impresoras de forma presencial.  
+
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Aplicaciones Móviles</h2>
+                    <div class="article-container">
+                        <article>
+                            <br>
+                            <img src="./assets/app-development.png" 
+                            alt="Icono Apps" class="icon">
+                            <div>
+                                <h3>Campeonatos Deportivos</h3>
+                                <p>Aplicaciones móviles para iOS y Android
+                                <br> destinada a la visualización de la información
+                                <br> de su campeonato deportivo, con resultados y fixture
+                                <br> en vivo y en todo momento. <br>                            
+                                </p>
+                                <p style="font-weight: bold;">■ Academia Austral (iOS y Android)</p>
+                            </div>
+                        </article>
+ 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" 
+        alt="Icono de flecha" class="icon arrow"
+        onclick="location.href='./#servicios'">
+    </section>
+    <section id="servicios">
+        <p class="section__text__p1">Contrata nuestros</p>
+        <h1 class="title">Servicios</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/sistemaVenta.jpg" 
+                    alt="Servicio 1" class="servicio-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Desarrollo de sistema de ventas de tickets Web</h2>
+                
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/basesDeDatos.png" 
+                    alt="Servicio 1" class="servicio-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Desarrollo de sistema para ventas de tickets en terreno</h2>
+
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/devApp.jpg" 
+                    alt="Servicio 1" class="servicio-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Desarrollo Aplicación Móvil</h2>
+            </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" 
+        alt="Icono de flecha" class="icon arrow"
+        onclick="location.href='./#contacto'">
+    </section>
+    <section id="contacto">
+        <p class="section__text__p1">Si quieres contratar nuestros servicios</p>
+        <h1 class="title">Contáctate con nosotros</h1>
+        <p class=" section__text__p1">Cuéntanos qué servicio te interesa, escríbenos tu idea </p>
+        <p class="section__text__p1" style="font-weight: bold;">¡y te responderemos a la brevedad!</p>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" 
+                alt="Icono Email" class="icon icono-contacto">
+                <p><a href="mailto:marcoalvaradog@gmail.com">marcoalvaradog@gmail.com</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#sobre">Sobre Nosotros</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 INGESIS</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
