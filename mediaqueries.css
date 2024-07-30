@@ -8,19 +8,24 @@
         flex-wrap: wrap;
     }
     #proyectos, .details-container {
-        padding-bottom: 5rem;
+        padding-bottom: 1rem;
     }
-}
-
+    #proyectos {
+        margin-bottom: 25%;
+    }
     #servicios {
-        margin-top: 2rem;
-        padding-top: 10rem;
-        padding-bottom: 5rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .article-container {
+        padding-bottom: 2rem;
     }
 
     #contacto {
-        margin-top: 5rem;
+       padding-top: 5rem;
+       margin-top: 2rem;
     }
+}   
 @media screen and (max-width: 1200px) {
     #desktop-nav {
         display: none;
@@ -30,7 +35,10 @@
     }
     #proyectos, .experience-details-container {
         margin-top: 2rem;
+        margin-bottom: 2rem;
+        padding-bottom: 2rem;
     }
+
     #profile, .section-container {
         display: block;
     }
@@ -54,12 +62,18 @@
     /* Nueva Media Query */
     #servicios {
         padding-top: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
     .experience-details-container {
         flex-direction: column;
     }
     .details-container.color-container {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+    #contacto {
+        margin-top: 2rem;
+        padding-top: 2rem;
     }
 }
 

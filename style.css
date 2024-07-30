@@ -148,9 +148,10 @@ a:hover {
 section {
     padding-top: 4vh;
     height: 96vh;
-    margin: 0 10rem;
+    margin: 10rem;
     box-sizing: border-box;
     min-height: fit-content;
+    padding-bottom: 4vh;
 }
 
 .section-container {
@@ -301,7 +302,8 @@ section {
 
 #proyectos {
     position: relative;
-    padding-bottom: 4rem; /* Añadir más espacio inferior */
+    padding-bottom: 4rem; 
+    margin-bottom: 4rem;
     clear: both; /* Asegurar que no haya superposición */
 }
 
@@ -326,6 +328,8 @@ section {
     flex-direction: row;
     gap: 2.5rem;
     justify-content: space-around;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 
 
@@ -334,6 +338,7 @@ section {
 
 #servicios {
     position: relative;
+    padding-top: 4rem;
     padding-bottom: 4rem; /* Añadir más espacio inferior */
     clear: both; /* Asegurar que no haya superposición */
 }
