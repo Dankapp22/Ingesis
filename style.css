@@ -298,8 +298,11 @@ section {
 
 /* EXPERIENCE SECTION*/
 
+
 #proyectos {
     position: relative;
+    padding-bottom: 4rem; /* Añadir más espacio inferior */
+    clear: both; /* Asegurar que no haya superposición */
 }
 
 .experience-sub-title {
@@ -311,8 +314,9 @@ section {
 
 .experience-details-container {
     display: flex;
+    flex-direction: column; /* Cambiar a columna para pantallas más pequeñas */
     justify-content: center;
-    flex: column;
+    gap: 2rem; /* Añadir un gap entre los elementos */
 }
 
 .article-container {
@@ -325,19 +329,19 @@ section {
 }
 
 
-article.icon {
-    cursor: default;
-}
 
 /* SERVICIOS */
 
 #servicios {
     position: relative;
+    padding-bottom: 4rem; /* Añadir más espacio inferior */
+    clear: both; /* Asegurar que no haya superposición */
 }
 
 .color-container {
     border-color: rgb(163, 163, 163);
     background: rgb(250, 250, 250);
+    margin-bottom: 4rem; /* Añadir margen inferior para separación */
 }
 
 .servicio-img {
@@ -350,7 +354,6 @@ article.icon {
     margin: 1rem;
     color: black;
 }
-
 /*CONTACTO*/
 
 #contacto {
